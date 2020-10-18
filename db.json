@@ -1,14 +1,28 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "questions" :[
+  {
+  "question" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  "options" : [
+  "Lorem Ipsum_1","Lorem Ipsum_2","Lorem Ipsum_3","Lorem Ipsum_4"
+  ]
+  },
+  {
+  "question" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  "options" : [
+  "Lorem Ipsum_1","Lorem Ipsum_2","Lorem Ipsum_3","Lorem Ipsum_4"
+  ]
+  },
+  {
+  "question" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  "options" : [
+  "Lorem Ipsum_1","Lorem Ipsum_2","Lorem Ipsum_3","Lorem Ipsum_4"
+  ]
+  },
+  {
+  "question" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  "options" : [
+  "Lorem Ipsum_1","Lorem Ipsum_2","Lorem Ipsum_3","Lorem Ipsum_4"
+  ]
   }
+  ]
 }
