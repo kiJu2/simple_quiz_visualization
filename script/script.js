@@ -1,52 +1,53 @@
 initDocument = () =>{
   render(level);
+  quiz_size = data.length;
 }
 
 handleClickAnswer = (e) => {
   const element = e.target;
-  if(element.id === "correct"){
-    score += 1;
+  if(level >= quiz_size - 1){
+    alert("End. score is " + score);
   }
-  if(element.className == "list"){
-    level += 1;
-    render(level);
-    console.log("????");
+  else{
+    if(element.id === "correct"){
+      score += 1;
+    }
+    if(element.className == "list"){
+      level += 1;
+      render(level);
+    }
   }
 }
 
-getAnswerForm = (text) =>{
+getOptionForm = (text) =>{
   return `<li class = "list">`+text+`</li>`;
 }
 
 printQuestion = (text) =>{
   question.innerHTML = text;
 }
-printAnswers = (options) =>{
+printOptions = (option_arr) =>{
   options.innerHTML = "";
-  options.map(option => {
-    options.innerHTML += getAnswerForm(option);
+  option_arr.map(option => {
+    options.innerHTML += getOptionForm(option);
   });
 }
 
 render = (level) =>{
   printQuestion(data[level]['question']);
-  printAnswers(data[level]['options']);
-  // console.log(document.getElementsByClassName("list"));
+  printOptions(data[level]['options']);
+
   list = document.getElementsByClassName("list");
   answer = Number(data[level]['answer']);
   list[answer - 1].setAttribute("id", "correct");
-  
-  // for (var item of list){
-  //   item.addEventListener("click", handleClickAnswer);
-  // }
 }
 
 var level = 0;
 var score = 0;
 var answer = 0;
-// var 
 
 var list = document.getElementsByClassName("list");
+var quiz_size;
 const options = document.getElementById("answers");
 const question = document.getElementById("question");
 
