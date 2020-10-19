@@ -11,6 +11,10 @@ handleClickAnswer = (e) => {
   else{
     if(element.id === "correct"){
       score += 1;
+      alert("correct.")
+    }
+    else{
+      alert("incorrect.")
     }
     if(element.className == "list"){
       level += 1;

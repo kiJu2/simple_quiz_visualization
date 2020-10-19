@@ -1,32 +1,39 @@
 {
   "questions" :[
   {
-  "question" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  "question" : "다음 중 스크립트 언어가 아닌 것을 선택하시오.",
   "options" : [
-  "Lorem Ipsum_1","Lorem Ipsum_2","Lorem Ipsum_3","Lorem Ipsum_4"
+  "python","php","java script","Go lang"
+  ],
+  "answer" : "4"
+  },
+  {
+  "question" : "next.js는 javascript 기반 프레임워크이다.",
+  "options" : [
+  "O","X"
   ],
   "answer" : "1"
   },
   {
-  "question" : "두번째 문제 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  "question" : "REST는 국제표준기관에 등재되었다.",
   "options" : [
-  "Lorem Ipsum_1","Lorem Ipsum_2","Lorem Ipsum_3","Lorem Ipsum_4"
+  "O","X"
   ],
   "answer" : "2"
   },
   {
-  "question" : "세번째 문제 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  "question" : "다음 중 흔히 CRUD라고 불리는 요소와 관련 없는 것은?",
   "options" : [
-  "Lorem3 Ipsum_1","Lorem3 Ipsum_2","Lorem3 Ipsum_3","Lorem3 Ipsum_4"
+  "Create","Read","Update","Delete","Select"
   ],
-  "answer" : "1"
+  "answer" : "5"
   },
   {
-  "question" : "네번째 문제 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  "question" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
   "options" : [
-  "Lorem4 Ipsum_1","Lorem4 Ipsum_2","Lorem4 Ipsum_3","Lorem4 Ipsum_4"
+  "Lorem4 Ipsum_1","Lorem4 Ipsum_2","Lorem4 Ipsum_3","Lorem4 Ipsum_4","Lorem4 Ipsum_5"
   ],
-  "answer" : "4"
+  "answer" : "3"
   }
   ]
 }
