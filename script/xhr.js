@@ -13,5 +13,5 @@ xhr.onreadystatechange = () => {
   }
 };
 
-xhr.open('GET', 'https://my-json-server.typicode.com/kiju2/Simple_Quiz/questions'); // 메소드와 주소 설정
+xhr.open('GET', 'https://my-json-server.typicode.com/kiju2/simple_quiz_visualization/questions'); // 메소드와 주소 설정
 xhr.send();
